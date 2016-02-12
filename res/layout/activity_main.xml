@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.MainActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <TextView
+        android:id="@+id/mTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:text="@string/titulo" />
+
+    <TextView
+        android:id="@+id/mTela1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mTitulo"
+        android:orientation="horizontal"
+        android:text="@string/tela1" />
+
+    <TextView
+        android:id="@+id/mNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mTela1"
+        android:orientation="horizontal"
+        android:text="@string/nome" />
+
+    <EditText
+        android:id="@+id/mInNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/mNome"
+        android:layout_alignRight="@+id/mTitulo"
+        android:layout_below="@+id/mNome"
+        android:layout_marginTop="16dp"
+        android:inputType="text"
+        android:orientation="horizontal"
+        android:text="@string/inNome"
+        tools:ignore="TextFields,RtlHardcoded,LabelFor" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/mEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mInNome"
+        android:orientation="horizontal"
+        android:text="@string/email" />
+
+    <EditText
+        android:id="@+id/mInEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/mNome"
+        android:layout_alignRight="@+id/mInNome"
+        android:layout_below="@+id/mInNome"
+        android:layout_marginTop="16dp"
+        android:inputType="text"
+        android:orientation="horizontal"
+        android:text="@string/inEmail"
+        tools:ignore="RtlHardcoded,LabelFor,TextFields" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/mButtonAvancar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mInEmail"
+        android:text="@string/avancar" />
+
+</RelativeLayout>

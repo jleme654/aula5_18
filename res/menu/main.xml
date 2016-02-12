@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.MainActivity" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+    <item
+        android:id="@+id/mTitulo"
+        android:title="@string/titulo"/>
+    <item
+        android:id="@+id/mTela1"
+        android:title="@string/tela1"/>
+    <item
+        android:id="@+id/mNome"
+        android:title="@string/nome"/>
+    <item
+        android:id="@+id/mInNome"
+        android:title="@string/inNome"/>
+    <item
+        android:id="@+id/mEmail"
+        android:title="@string/email"/>
+    <item
+        android:id="@+id/mInEmail"
+        android:title="@string/inEmail"/>
+    <item
+        android:id="@+id/mButtonAvancar"
+        android:title="@string/avancar"/>
+
+</menu>

@@ -25,21 +25,33 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int action_settings=0x7f080007;
+        public static final int action_settings=0x7f08000f;
         public static final int mButtonAvancar=0x7f080006;
-        public static final int mEmail=0x7f080004;
-        public static final int mInEmail=0x7f080005;
+        public static final int mButtonRetornar=0x7f08000d;
+        public static final int mCurso=0x7f080009;
+        public static final int mEmail=0x7f080005;
+        public static final int mEscola=0x7f08000b;
+        public static final int mInCurso=0x7f08000a;
+        public static final int mInEmail=0x7f080004;
+        public static final int mInEscola=0x7f08000c;
         public static final int mInNome=0x7f080003;
         public static final int mNome=0x7f080002;
-        public static final int mTela1=0x7f080001;
-        public static final int mTitulo=0x7f080000;
+        public static final int mStatus=0x7f080008;
+        public static final int mTela1=0x7f080000;
+        public static final int mTela2=0x7f080007;
+        public static final int mTela3=0x7f08000e;
+        public static final int mTitulo=0x7f080001;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
-        public static final int fragment_main=0x7f030001;
+        public static final int activity_main2=0x7f030001;
+        public static final int activity_main3=0x7f030002;
+        public static final int fragment_main=0x7f030003;
     }
     public static final class menu {
         public static final int main=0x7f070000;
+        public static final int main2=0x7f070001;
+        public static final int main3=0x7f070002;
     }
     public static final class string {
         public static final int action_settings=0x7f050001;
@@ -54,6 +66,7 @@ public final class R {
         public static final int inNome=0x7f05000c;
         public static final int nome=0x7f050008;
         public static final int retornar=0x7f050007;
+        public static final int status=0x7f050010;
         public static final int tela1=0x7f050003;
         public static final int tela2=0x7f050004;
         public static final int tela3=0x7f050005;

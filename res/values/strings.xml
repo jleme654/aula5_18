@@ -13,9 +13,10 @@
     <string name="email">Email:</string>
     <string name="curso">Curso:</string>
     <string name="escola">Escola:</string>
-    <string name="inNome"></string>
-    <string name="inEmail"></string>
-    <string name="inCurso"></string>
-    <string name="inEscola"></string>
+    <string name="inNome">Julio Leme</string>
+    <string name="inEmail">julioromao@hotmail.com</string>
+    <string name="inCurso">Android</string>
+    <string name="inEscola">Wincomp</string>
+    <string name="status"></string>
 
 </resources>

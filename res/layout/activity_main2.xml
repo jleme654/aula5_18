@@ -7,70 +7,84 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.MainActivity"
-    tools:ignore="MergeRootFrame" >
+    tools:context="com.example.MainActivity2"
+    tools:ignore="MergeRootFrame,UnknownIdInLayout" >
 
     <TextView
-        android:id="@+id/mTela1"
+        android:id="@+id/mTela2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/mTitulo"
         android:orientation="horizontal"
-        android:text="@string/tela1" />
+        android:text="@string/tela2" />
+    
+    <TextView
+        android:id="@+id/mStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/mTela2"
+        android:text="@string/status" />
 
     <TextView
-        android:id="@+id/mNome"
+        android:id="@+id/mCurso"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/mTela1"
         android:orientation="horizontal"
-        android:text="@string/nome" />
+        android:layout_below="@+id/mStatus"
+        android:text="@string/curso" />
 
     <EditText
-        android:id="@+id/mInNome"
+        android:id="@+id/mInCurso"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/mNome"
-        android:layout_alignRight="@+id/mInEmail"
-        android:layout_below="@+id/mNome"
+        android:layout_alignLeft="@+id/mEmail"
+        android:layout_alignRight="@+id/mInCurso"
         android:layout_marginTop="16dp"
         android:inputType="text"
         android:orientation="horizontal"
-        android:text="@string/inNome"
+        android:text="@string/inCurso"
+        android:layout_below="@+id/mCurso"
         tools:ignore="TextFields,RtlHardcoded,LabelFor" >
 
         <requestFocus />
     </EditText>
 
     <TextView
-        android:id="@+id/mEmail"
+        android:id="@+id/mEscola"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/mInNome"
         android:orientation="horizontal"
-        android:text="@string/email" />
+        android:layout_below="@+id/mInCurso"
+        android:text="@string/escola" />
 
     <EditText
-        android:id="@+id/mInEmail"
+        android:id="@+id/mInEscola"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/mNome"
+        android:layout_alignLeft="@+id/mEscola"
         android:layout_alignParentRight="true"
-        android:layout_below="@+id/mInNome"
         android:layout_marginTop="16dp"
         android:inputType="text"
+        android:layout_below="@+id/mEscola"
         android:orientation="horizontal"
-        android:text="@string/inEmail"
+        android:text="@string/inEscola"
         tools:ignore="RtlHardcoded,LabelFor,TextFields" >
 
         <requestFocus />
     </EditText>
-
+    
     <Button
         android:id="@+id/mButtonAvancar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/mInEmail"
+        android:layout_below="@+id/mInEscola"
         android:text="@string/avancar" />
+
+    <Button
+        android:id="@+id/mButtonRetornar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mButtonAvancar"
+        android:text="@string/retornar" />
 
 </RelativeLayout>
